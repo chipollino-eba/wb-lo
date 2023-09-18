@@ -1,0 +1,18 @@
+.cart-form__item-price-label {
+    display: flex;
+    font-size: 13px;
+    color: red;
+    line-height: 16px;
+}
+
+
+@media (max-width: 800px) {
+    .cart-form__item-price-label {
+        margin-left: 8px;
+    }
+}
+
+
+.none-true {
+    display: none;
+}

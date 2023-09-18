@@ -1,0 +1,11 @@
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.rating-value {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px; /* 123.077% */
+}

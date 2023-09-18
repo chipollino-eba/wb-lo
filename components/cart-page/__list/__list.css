@@ -1,0 +1,4 @@
+.cart-form__sections {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,6 @@
+.cart-form__image-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+}

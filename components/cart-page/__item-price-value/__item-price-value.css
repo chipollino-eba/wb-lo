@@ -1,0 +1,18 @@
+.cart-form__item-price-value {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    width: 110px;
+}
+
+.cart-form__item-price-currency {
+    font-size: 16px;
+}
+
+
+@media (max-width: 800px) {
+    .cart-form__item-price-value {
+        display: none;
+    }
+}
+

@@ -1,0 +1,52 @@
+.cart-form__checkbox {
+    -webkit-appearance: none;
+    background-color: #F6F6FA;
+    border: 1px solid #cacece;
+    border-radius: 6px;
+    height: 22px;
+    width: 22px;
+    accent-color: #CB11AB;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}
+
+.checkbox-static {
+    position: inherit;
+}
+
+
+.cart-form__checkbox:active, .regular-checkbox:checked:active {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.cart-form__checkbox:checked {
+    background-color: #CB11AB;
+    border: 1px solid #CB11AB;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+    color: #FFFFFF;
+}
+
+.cart-form__checkbox:checked:after {
+    content: url(../../../svg/checkbox-icon.svg);
+    font-size: 14px;
+    position: relative;
+    top: 0px;
+    left: 4px;
+    color: #FFFFFF;
+}
+
+
+@media (max-width: 800px) {
+    .cart-form__checkbox {
+        position: absolute;
+        top: 4px;
+        left: 4px;
+        margin-right: 0;
+    }
+
+    .checkbox-static {
+        position: inherit;
+    }
+
+}

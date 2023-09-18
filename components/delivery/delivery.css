@@ -1,0 +1,363 @@
+.cart-form__delivery {
+
+}
+
+.cart-form__user-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.section-round {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 16px 24px 24px 24px;
+  background-color: #FFFFFF;
+  border-radius: 16px;
+}
+
+.section-round__header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.section-round__header {
+  display: flex;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.24px;
+  line-height: 32px;
+}
+
+@media (max-width: 1023px) {
+  .section-round__header {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.2px;
+  }
+
+
+  .section-round {
+    padding: 16px 16px 24px 16px;
+    background-color: #FFFFFF;
+  }
+
+  .section-round__header-wrapper {
+    margin-bottom: 8px;
+  }
+}
+
+
+
+
+
+.section-round__header-button {
+  padding-top: 7px;
+  display: flex;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  color: #CB11AB;
+}
+
+.cart-form__delivery-details {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+
+
+.cart-form__delivery-point {
+  display: flex;
+  gap: 32px;
+}
+
+@media (max-width: 1023px) {
+  .cart-form__delivery-point {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+}
+
+
+.cart-form__delivery-details-header {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  max-width: 153px;
+  width: 100%;
+}
+
+.cart-form__delivery-point-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.cart-form__delivery-point-rating {
+  display: flex;
+  gap: 8px;
+}
+
+.cart-form__delivery-point-work-time {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.cart-form__delivery-price {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.cart-form__delivery-date {
+  display: flex;
+  gap: 32px;
+}
+
+.cart-form__delivery-order-cards {
+  display: flex;
+  gap: 8px;
+}
+
+.delivery-image-link {
+  width: 40px;
+  max-height: 56px;
+}
+
+.cart-form__delivery-refund-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+}
+
+.cart-form__delivery-refund-info > svg {
+  min-height: 22px;
+  min-width: 22px;
+}
+
+.cart-form__delivery-refund-info__text {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.highlight {
+  cursor: pointer;
+  text-decoration: dotted underline;
+  color: #0CB477;
+}
+
+.highlight-purple {
+  cursor: pointer;
+  text-decoration: dotted underline;
+  color: #CB11AB
+}
+
+.highlight-gray {
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: rgba(0, 0, 0, 0.10);
+}
+
+.section-round__content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.cart-form {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  width: 100%;
+}
+
+@media (max-width: 1023px) {
+  .cart-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    width: 100%;
+  }
+
+}
+
+.cart-form__item-price-value-mobile {
+  display: none;
+  flex-direction: row;
+  gap: 5px;
+  padding-top: 4px;
+}
+
+.cart-form__size-mobile-container {
+  display: none;
+  position: absolute;
+  font-size: 14px;
+  min-width: 22px;
+  min-height: 22px;
+  background-color: #FFFFFF;
+  border-radius: 6px;
+  text-align: center;
+  padding: 0.5px 3px 2.5px;
+  left: 4px;
+  bottom: 4px;
+
+}
+
+.cart-from__delivery-point-adress {
+
+}
+
+@media (max-width: 1023px) {
+  .cart-form__item-price-value-mobile {
+    display: flex;
+  }
+
+}
+
+@media (max-width: 800px) {
+  .cart-form__size-mobile-container {
+    display: block;
+  }
+}
+
+@media (max-width: 1023px) {
+  .cart-form__price-new {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .cart-form__price-old {
+    margin-top: 4px;
+    font-size: 13px;
+    color: #A0A0A4;
+    text-decoration: line-through;
+  }
+
+  .cart-form__price-old::after {
+    font-size: 13px;
+    color: #A0A0A4;
+    text-decoration: overline;
+  }
+
+  .cart-from__delivery-point-address {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+}
+
+@media (max-width: 1023px) {
+  .counter__input {
+    width: 100%;
+    display: flex;
+
+  }
+}
+
+
+.cart-form__size-mobile {
+  display: none;
+  background-color: #FFFFFF;
+  border-radius: 6px;
+  position: absolute;
+  bottom: 4px;
+  left: 4px;
+  height: 22px;
+  padding: 0 3px 2.5px;
+  box-sizing: border-box;
+  min-width: 22px;
+  max-width: 72px;
+}
+
+.cart-form__delivery-dates {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media (max-width: 1023px) {
+
+  .cart-form__delivery-price {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: flex-start;
+  }
+
+  .cart-form__delivery-date {
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+  }
+
+  .cart-form__delivery-refund-info {
+    padding: 0 8px 0 8px;
+  }
+
+  .cart-form__delivery-point-address {
+    line-height: 24px;
+  }
+
+  .cart-form__delivery-dates {
+    gap: 24px;
+  }
+
+  .active {
+    display: none
+  }
+
+  .section-round__header-button {
+    padding-top: 4px;
+  }
+
+}
+
+.cart__text-size {
+  font-size: 14px;
+}
+
+.cart-form__price-tooltip {
+  display: none;
+  flex-direction: column;
+  font-size: 13px;
+  margin: 0;
+  font-weight: 400;
+  color: #000000;
+  background-color: white;
+  border-radius: 8px;
+  line-height: 16px;
+  padding: 10px 16px 14px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.09);
+  right: 0px;
+  width: 239px;
+  gap: 8px;
+  z-index: 10;
+  position: absolute;
+}
+
+.cart-form__price-tooltip-row {
+  display: flex;
+  justify-content: space-between;
+}
+.cart-form__price-tooltip-discount {
+  color: #A0A0A4;
+}
+
+.modal-delivery-category-buttons {
+  display: flex;
+  margin-bottom: 24px;
+}
+

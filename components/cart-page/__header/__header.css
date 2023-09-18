@@ -1,0 +1,22 @@
+.cart-form__header {
+    margin-top: 10px;
+    margin-bottom: 27px;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.24px
+}
+
+@media (max-width: 800px) {
+    .cart-form__header {
+        height: 28px;
+        margin-top: 0;
+        margin-left: 16px;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 14px; /* 140% */
+        letter-spacing: -0.2px;
+        margin-bottom: 6px;
+    }
+}
+

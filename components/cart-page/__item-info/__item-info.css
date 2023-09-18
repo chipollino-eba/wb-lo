@@ -1,0 +1,17 @@
+.cart-form__item-info {
+    max-width: 379px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 12px;
+    gap: 16px;
+}
+
+.cart-form__item-info--disabled {
+    color: #A0A0A4
+}
+
+.disabled {
+    color: #A0A0A4;
+}
+

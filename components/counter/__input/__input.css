@@ -1,0 +1,22 @@
+.counter__input {
+  outline: none;
+  width: 100%;
+  line-height: 24px;
+
+  text-align: center;
+}
+
+.counter__input:focus {
+  /* outline: none; */
+}
+
+input::-webkit-inner-spin-button {
+  display: none;
+}
+
+
+@media (max-width: 800px) {
+  .counter__input {
+    font-size: 14px;
+  }
+}

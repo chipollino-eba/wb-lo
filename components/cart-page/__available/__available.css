@@ -1,0 +1,31 @@
+.cart-form__available-items {
+
+}
+
+.section-list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+
+@media (max-width: 800px) {
+    .section-list {
+        margin-bottom: 0;
+        padding: 0 16px 0 16px;
+    }
+
+
+}
+
+
+
+@media (max-width: 800px) {
+    .cart-form__available-items {
+        margin-bottom: 48px;
+    }
+
+    .cart-form__unavailable-items {
+        margin-bottom: 32px;
+    }
+}

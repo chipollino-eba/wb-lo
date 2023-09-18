@@ -1,0 +1,7 @@
+.cart-form__item-storage {
+    display: flex;
+    flex-direction: column;
+    color: #A0A0A4;
+    font-size: 13px;
+    gap: 4px;
+}

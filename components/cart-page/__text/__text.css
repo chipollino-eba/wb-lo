@@ -1,0 +1,30 @@
+.cart-form__text {
+    font-size: 13px;
+    line-height: 16px;
+}
+
+
+.cart-form__info-icon {
+    cursor: pointer;
+}
+
+
+.item__size {
+
+}
+
+
+@media (max-width: 800px) {
+    .item__size {
+        display: none;
+    }
+
+    .cart-form__text {
+        margin-top: 8px;
+    }
+
+    .cart-form__size-mobile {
+        display: none;
+    }
+
+}

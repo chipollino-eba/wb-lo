@@ -1,0 +1,14 @@
+.cart-form__image-link {
+  position: relative;
+  width: 72px;
+  max-height: 96px;
+}
+
+
+@media (max-width: 800px) {
+  .cart-form__image-link {
+    width: 80px;
+    max-height: 106px;
+  }
+
+}

@@ -1,0 +1,10 @@
+.cart-form__item-properties {
+    display: flex;
+    width: 100%;
+    font-size: 13px;
+    gap: 16px;
+}
+
+.properties-false {
+    display: none;
+}

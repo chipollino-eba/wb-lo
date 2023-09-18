@@ -1,0 +1,17 @@
+.main__container {
+    display: block;
+    margin: 0 auto;
+    padding: 0 24px 0 24px;
+    max-width: 1400px;
+    width: 100%;
+}
+
+
+
+
+@media (max-width: 800px) {
+    .main__container {
+        padding: 0;
+    }
+}
+

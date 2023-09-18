@@ -1,0 +1,18 @@
+.cart-form__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    vertical-align: middle;
+    width: 100%;
+}
+
+
+@media (max-width: 800px) {
+    .cart-form__item {
+        display: flex;
+        flex-direction: column;
+        vertical-align: middle;
+        width: 100%;
+    }
+}
+

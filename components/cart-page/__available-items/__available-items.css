@@ -1,0 +1,31 @@
+.cart-form__items-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+}
+
+.items-unavailable {
+    color: #A0A0A4;
+    filter: grayscale(1);
+}
+
+.buttons-unavailable {
+
+}
+
+@media (max-width: 800px) {
+    .cart-form__items-list {
+        gap: 0;
+    }
+
+    .items-unavailable {
+        gap: 0;
+    }
+
+    .buttons-unavailable {
+        height: 24px;
+        padding-top: 0;
+    }
+
+}

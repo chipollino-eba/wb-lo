@@ -1,0 +1,19 @@
+.counter {
+  background-color: #ffffff;
+  border-radius: 8px;
+  height: 44px;
+}
+
+
+
+@media (max-width: 800px) {
+  .counter {
+    display: flex;
+    border-radius: 4px;
+    justify-content: space-between;
+    width: 80px;
+    background-color: #ffffff;
+    height: 32px;
+  }
+
+}

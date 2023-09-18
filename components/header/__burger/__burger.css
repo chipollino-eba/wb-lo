@@ -1,0 +1,38 @@
+.header__navbar-mobile {
+    display: none;
+}
+
+.header__burger {
+    display: flex;
+    height: 48px;
+    width: 48px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, .45);
+    border-radius: 8px;
+    flex-direction: column;
+    cursor: pointer;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+
+@media (max-width: 800px) {
+    .header__burger {
+        background-image: url(../../../svg/burger-mobile.svg);
+        background-repeat: no-repeat;
+        display: block;
+        border: none;
+        height: 28px;
+        width: 28px;
+    }
+
+    .header__navbar-mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+
+    }
+}

@@ -1,0 +1,93 @@
+@import url(./font/stylesheet.css);
+@import url(./components/body/body.css);
+
+@import url(./components/header/header.css);
+@import url(./components/header/__container/__container.css);
+@import url(./components/header/__burger/__burger.css);
+@import url(./components/header/__burger-button/__burger-button.css);
+@import url(./components/header/__burger-line/__burger-line.css);
+@import url(./components/header/__logo/__logo.css);
+@import url(./components/header/__navbar-left/__navbar-left.css);
+@import url(./components/header/__search/__search.css);
+@import url(./components/header/__search-input/__search-input.css);
+@import url(./components/header/__search-button/__search-button.css);
+@import url(./components/header/__navbar/__navbar.css);
+@import url(./components/header/__navbar-button/__navbar-button.css);
+
+@import url(components/cart-page/__container/__container.css);
+@import url(components/cart-page/__wrapper/__wrapper.css);
+@import url(components/cart-page/__cart/__cart.css);
+@import url(components/cart-page/__header/__header.css);
+@import url(components/cart-page/__list/__list.css);
+@import url(components/cart-page/__available/__available.css);
+@import url(components/cart-page/__handlers/__handlers.css);
+@import url(components/cart-page/__checkbox-wrapper/__checkbox-wrapper.css);
+@import url(components/cart-page/__checkbox/__checkbox.css);
+@import url(components/cart-page/__checkbox-label/__checkbox-label.css);
+@import url(components/cart-page/__available-items/__available-items.css);
+@import url(components/cart-page/__item/__item.css);
+@import url(components/cart-page/__item-info/__item-info.css);
+@import url(components/cart-page/__image-wrapper/__image-wrapper.css);
+@import url(components/cart-page/__item-image/__item-image.css);
+@import url(components/cart-page/__item-text/__item-text.css);
+@import url(components/cart-page/__item-header/__item-header.css);
+@import url(components/cart-page/__item-properties/__item-properties.css);
+@import url(components/cart-page/__item-storage/__item-storage.css);
+@import url(components/cart-page/__item-provider/__item-provider.css);
+@import url(components/cart-page/__text/__text.css);
+@import url(components/cart-page/__info-icon/__info-icon.css);
+@import url(components/cart-page/__img-link/__img-link.css);
+@import url(components/cart-page/__item-price/__item-price.css);
+@import url(components/cart-page/__item-price-buttons/__item-price-buttons.css);
+@import url(components/cart-page/__item-price-label/__item-price-label.css);
+@import url(components/cart-page/__item-icons/__item-icons.css);
+@import url(components/cart-page/__item-price-value/__item-price-value.css);
+@import url(components/cart-page/__price-new/__price-new.css);
+@import url(components/cart-page/__price-old/__price-old.css);
+
+
+@import url(components/cart-page/__empty/__empty.css);
+@import url(components/cart-page/__empty-header/__empty-header.css);
+@import url(components/cart-page/__empty-items/__empty-items.css);
+
+
+@import url(components/counter/counter.css);
+@import url(components/counter/__input/__input.css);
+@import url(components/counter/__button/__button.css);
+@import url(components/counter/__wrapper/__wrapper.css);
+
+
+
+@import url(components/delivery/delivery.css);
+@import url(components/order/order.css);
+@import url(components/payment/payment.css);
+@import url(components/user-info/user-info.css);
+
+@import url(components/cart-line/cart-line.css);
+@import url(components/list-button/list-buttons.css);
+@import url(components/rating/rating.css);
+
+@import url(components/cart-page/__sidebar/__sidebar.css);
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+input {
+  background: none;
+  border: none;
+}
+
+h2 {
+
+}

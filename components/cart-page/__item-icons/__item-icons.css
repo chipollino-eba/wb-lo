@@ -1,0 +1,32 @@
+.cart-form__item-icons {
+    display: none;
+    gap: 16px;
+    justify-content: flex-end;
+
+}
+
+.cart-delete {
+    min-width: 20px;
+    min-height: 20px;
+}
+
+.cart-delete:hover {
+    stroke: #F55123;
+}
+
+/*.cart-like {*/
+/*    stroke: #F6F6FA*/
+/*}*/
+
+.cart-like:hover {
+    stroke: #CB11AB;
+}
+
+@media (max-width: 800px) {
+    .cart-form__item-icons {
+        display: flex;
+        position: absolute;
+        right: 12px;
+        gap: 24px;
+    }
+}

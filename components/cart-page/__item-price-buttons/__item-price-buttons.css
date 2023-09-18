@@ -1,0 +1,19 @@
+.cart-form__item-price-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 100px;
+}
+
+@media (max-width: 800px) {
+  .cart-form__item-price-buttons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 8px;
+    max-width: none;
+    align-items: center;
+    position: relative;
+    justify-content: flex-start;
+  }
+}

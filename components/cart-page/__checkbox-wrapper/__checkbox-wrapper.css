@@ -1,0 +1,15 @@
+.section-list__handler-title {
+    display: flex;
+    gap: 11px;
+    align-items: center;
+    vertical-align: middle;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.handler-title-bold {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}

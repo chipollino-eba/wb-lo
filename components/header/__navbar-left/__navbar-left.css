@@ -1,0 +1,12 @@
+.header__navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+
+@media (max-width: 800px) {
+    .header__navbar-left {
+        display: none;
+    }
+}

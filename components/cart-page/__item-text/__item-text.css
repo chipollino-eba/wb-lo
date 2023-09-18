@@ -1,0 +1,15 @@
+.cart-form__item-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+
+
+@media (max-width: 800px) {
+    .cart-form__item-text {
+        gap: 0;
+    }
+
+}
